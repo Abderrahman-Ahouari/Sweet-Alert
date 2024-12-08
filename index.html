@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SweetAlert</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-<div class="alert_container bg-red-400 border-red-900">
+<div class="hidden alert_container bg-red-400 border-red-900">
 <img class="alert_icon" src="images/exclamation-mark.png" alt="">
 <div class="alert_name">warning</div>
 <div class="alert_description">if you click the "ok" button your changes may not ne saved or considerd as you expected</div>
@@ -22,7 +22,13 @@
     <button class="alert_button bg-blue-800 h-[45px] w-[85px]">ok</button>
     <button class="alert_button bg-blue-800 h-[45px] w-[150px]">read more</button>
 </div>
+</div>
 
+<div class="hidden alert_container bg-red-400 border-red-900">
+<img class="alert_icon" src="images/warning.png" alt="">
+<div class="alert_name">danger</div>
+<div class="alert_description ">if you click the "ok" button your file will be deleted forever</div>
+<button class="alert_button bg-red-800 h-[45px] w-[85px]">ok</button>
 
 
 </div>       
