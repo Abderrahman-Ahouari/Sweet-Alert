@@ -35,9 +35,7 @@ font-size: xx-large;
     width: 85%;
 }
 .alert_button{
-    width: 100px;
-    height: 45px;
     border-radius: 7px;
     font-size: 27px;
-    margin-bottom: 25px;
+    margin-bottom: 25px; 
 }
