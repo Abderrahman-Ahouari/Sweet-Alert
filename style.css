@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.alert_container{
+    width: 500px;
+    height: auto;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 10px;
+border-width: 2px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+
+}
+
+.alert_icon{
+margin-top: 25px;
+height: 60px;
+width: 60px;
+}
+.alert_name{
+font-size: xx-large;    
+}
+.alert_description{
+    font-size: large;
+    text-align: center;
+    width: 85%;
+}
+.alert_button{
+    width: 100px;
+    height: 45px;
+    border-radius: 7px;
+    font-size: 27px;
+    margin-bottom: 25px;
+}
